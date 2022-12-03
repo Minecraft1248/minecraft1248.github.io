@@ -240,43 +240,16 @@
 
         
             
-    <div id="gitalk-container"></div>
-    <script data-pjax
-            src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+ 
+    <div id="waline"></div>
     <script data-pjax>
-
-        function loadGitalk() {
-            let __gitalk__pathname = decodeURI(location.pathname);
-            const __gitalk__pathnameLength = __gitalk__pathname.length;
-            const __gitalk__pathnameMaxLength = 50;
-            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
-                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
-            }
-
-            try {
-                Gitalk && new Gitalk({
-                    clientID: '159820281f7464f66e44',
-                    clientSecret: '51ee1f36ebe7cf1dbdd69c5d3734762359d8de8d',
-                    repo: 'minecraft1248.github.io',
-                    owner: 'Minecraft1248',
-                    admin: ['Minecraft1248'],
-                    id: __gitalk__pathname,
-                    language: 'en'
-                }).render('gitalk-container');
-
-            } catch (e) {
-                window.Gitalk = null;
-            }
-        }
-
-        if ('true') {
-            const loadGitalkTimeout = setTimeout(() => {
-                loadGitalk();
-                clearTimeout(loadGitalkTimeout);
-            }, 1000);
-        } else {
-            window.addEventListener('DOMContentLoaded', loadGitalk);
-        }
+        Waline.init({
+            el: '#waline',
+            serverURL: 'https://waline-support-for-blog-minecraft1248-45ohg7137-minecraft1248.vercel.app/',
+            lang: 'zh-CN',
+            dark: 'auto',
+            requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+        });
     </script>
 
 
