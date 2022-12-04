@@ -9,7 +9,7 @@
     
     <title>
         
-            Redefine 主题使用指南 |
+            C++究竟是一门什么样的语言 |
         
         nothing here.
     </title>
@@ -141,7 +141,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation"><h1 style="font-size:2rem; font-weight: bold; margin: 10px 0;">Redefine 主题使用指南</h1></span>
+            <span class="title-hover-animation"><h1 style="font-size:2rem; font-weight: bold; margin: 10px 0;">C++究竟是一门什么样的语言</h1></span>
         </div>
 
         
@@ -244,6 +244,26 @@
 <p>以下C++代码有没有错误？如果有，其输出的内容是什么？</p>
 <div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;ratio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;<span class="type">int</span> i&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">foo_</span>&#123;</span><br><span class="line">    <span class="keyword">using</span> bar = ratio_add&lt;<span class="keyword">typename</span> foo_&lt;i - <span class="number">1</span>&gt;::bar, ratio&lt;<span class="number">1</span>, i * i&gt;&gt;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;&gt;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">foo_</span>&lt;<span class="number">1</span>&gt;&#123;</span><br><span class="line">    <span class="keyword">using</span> bar = ratio&lt;<span class="number">1</span>, <span class="number">1</span>&gt;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;<span class="type">int</span> i&gt;</span><br><span class="line"><span class="keyword">using</span> foo = <span class="keyword">typename</span> foo_&lt;i&gt;::bar;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">using</span> res = foo&lt;<span class="number">3</span>&gt;;</span><br><span class="line">    cout &lt;&lt; res::num &lt;&lt; <span class="string">&quot;/&quot;</span> &lt;&lt; res::den &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p>答案：没有错误，输出<code>49/36</code>（此处限于篇幅不予解释）</p>
 <h2 id="2-何为C-标准委员会？"><a href="#2-何为C-标准委员会？" class="headerlink" title="2.何为C++标准委员会？"></a>2.何为C++标准委员会？</h2><h2 id="3-C-的古典时代（C-98与C-03）"><a href="#3-C-的古典时代（C-98与C-03）" class="headerlink" title="3.C++的古典时代（C++ 98与C++ 03）"></a>3.C++的古典时代（C++ 98与C++ 03）</h2><h2 id="4-C-11：像一门新语言"><a href="#4-C-11：像一门新语言" class="headerlink" title="4.C++ 11：像一门新语言"></a>4.C++ 11：像一门新语言</h2><h2 id="5-C-14：完善C-11"><a href="#5-C-14：完善C-11" class="headerlink" title="5.C++ 14：完善C++ 11"></a>5.C++ 14：完善C++ 11</h2><h2 id="6-C-17：大海迷航"><a href="#6-C-17：大海迷航" class="headerlink" title="6.C++ 17：大海迷航"></a>6.C++ 17：大海迷航</h2><h2 id="7-C-20：方向之争"><a href="#7-C-20：方向之争" class="headerlink" title="7.C++ 20：方向之争"></a>7.C++ 20：方向之争</h2><h2 id="8-C-23-amp-future：旭日初升还是夕阳余晖？"><a href="#8-C-23-amp-future：旭日初升还是夕阳余晖？" class="headerlink" title="8.C++ 23&amp;future：旭日初升还是夕阳余晖？"></a>8.C++ 23&amp;future：旭日初升还是夕阳余晖？</h2><h2 id="9-结语"><a href="#9-结语" class="headerlink" title="9.结语"></a>9.结语</h2><h2 id="10-致谢和参考文献"><a href="#10-致谢和参考文献" class="headerlink" title="10.致谢和参考文献"></a>10.致谢和参考文献</h2>
         </div>
@@ -252,7 +272,7 @@
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：Redefine 主题使用指南</li>
+        <li>Post title：C++究竟是一门什么样的语言</li>
         <li>Post author：Minecraft1248</li>
         <li>Create time：2022-12-24 11:11:26</li>
         <li>
