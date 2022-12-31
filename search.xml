@@ -21,8 +21,9 @@
   <entry>
     <title>C++究竟是一门什么样的语言</title>
     <url>/2022/12/24/What-is-C++/</url>
-    <content><![CDATA[<h3 id="C-的起源"><a href="#C-的起源" class="headerlink" title="C++ 的起源"></a>C++ 的起源</h3><p>&#x2F;&#x2F;插入BV1wJ41117Q3采访当中“当时却没有哪一种语言能够兼顾我（在表达高级概念的同时也在底层与硬件沟通）的需求。所以好吧，我决定自己来开发一种”</p>
-<h3 id="何为-C-标准委员会？"><a href="#何为-C-标准委员会？" class="headerlink" title="何为 C++ 标准委员会？"></a>何为 C++ 标准委员会？</h3><h3 id="面向对象的发展与-C-的第一次发展低谷"><a href="#面向对象的发展与-C-的第一次发展低谷" class="headerlink" title="面向对象的发展与 C++ 的第一次发展低谷"></a>面向对象的发展与 C++ 的第一次发展低谷</h3><h3 id="迟来的-C-11：看起来像一门新语言！"><a href="#迟来的-C-11：看起来像一门新语言！" class="headerlink" title="迟来的 C++ 11：看起来像一门新语言！"></a>迟来的 C++ 11：看起来像一门新语言！</h3><h3 id="C-17：大海迷航"><a href="#C-17：大海迷航" class="headerlink" title="C++ 17：大海迷航"></a>C++ 17：大海迷航</h3><h3 id="C-20：方向之争"><a href="#C-20：方向之争" class="headerlink" title="C++ 20：方向之争"></a>C++ 20：方向之争</h3><h3 id="2023年的C"><a href="#2023年的C" class="headerlink" title="2023年的C++"></a>2023年的C++</h3><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ul>
+    <content><![CDATA[<h3 id="C-的起源"><a href="#C-的起源" class="headerlink" title="C++ 的起源"></a>C++ 的起源</h3><p>&#x2F;&#x2F;“当时却没有哪一种语言能够兼顾我（在表达高级概念的同时也在底层与硬件沟通）的需求。所以好吧，我决定自己来开发一种”</p>
+<h3 id="何为-C-标准委员会？"><a href="#何为-C-标准委员会？" class="headerlink" title="何为 C++ 标准委员会？"></a>何为 C++ 标准委员会？</h3><h3 id="迟来的-C-11：看起来像一门新语言！"><a href="#迟来的-C-11：看起来像一门新语言！" class="headerlink" title="迟来的 C++ 11：看起来像一门新语言！"></a>迟来的 C++ 11：看起来像一门新语言！</h3><h3 id="C-17：大海迷航"><a href="#C-17：大海迷航" class="headerlink" title="C++ 17：大海迷航"></a>C++ 17：大海迷航</h3><p>&#x2F;&#x2F;插入“随着语言成熟度、兼容性以及稳定性而来的，是语言的复杂性——我们无法摒弃某些陈旧的部分。”</p>
+<h3 id="C-20：方向之争"><a href="#C-20：方向之争" class="headerlink" title="C++ 20：方向之争"></a>C++ 20：方向之争</h3><h3 id="2023年的C"><a href="#2023年的C" class="headerlink" title="2023年的C++"></a>2023年的C++</h3><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ul>
 <li><p>Stroustrup B. Thriving in a crowded and changing world: C++ 2006–2020[J]. Proceedings of the ACM on Programming Languages, 2020, 4(HOPL): 1-168.</p>
 </li>
 <li><p>Stroustrup B. A history of C++ 1979–1991[M]&#x2F;&#x2F;History of programming languages—II. 1996: 699-769.</p>
